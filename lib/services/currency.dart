@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class Currency {
-  static const String _apiKey = "0c9f5d54a9d99d0a77341316";
+  static const String _apiKey = "YOUR-API-KEY";
 
   static Future<List<List<String>>> getCurrencies() async {
     try {
